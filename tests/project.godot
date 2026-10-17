@@ -1,0 +1,16 @@
+; The test project scripts/RunTests.ps1 copies into a folder of its own with the addon, and runs on each graphics
+; driver: godot --path <folder> --rendering-driver <driver> -s res://test_runner.gd
+config_version=5
+
+[application]
+
+config/name="weft-godot tests"
+
+[display]
+
+window/size/viewport_width=320
+window/size/viewport_height=240
+
+[rendering]
+
+renderer/rendering_method="forward_plus"

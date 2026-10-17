@@ -1,0 +1,7 @@
+# Built by scripts/BuildWeft.ps1, not committed.
+/build/
+/addons/weft/bin/
+/demo/addons/
+
+# Godot's caches of the test and demo projects.
+.godot/
